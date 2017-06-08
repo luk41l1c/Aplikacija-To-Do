@@ -92,7 +92,7 @@ function odgovorServera(request, response) {
             break;
     }
 }
-
+var port = process.env.PORT || 9999;
 var server = http.createServer(odgovorServera);
-server.listen(8080);
+server.listen(port);
 console.log("Server startovan na portu 8080");
