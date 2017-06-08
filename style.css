@@ -1,0 +1,26 @@
+#naslov {
+    font-size: 19px;
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    background-color: #14b114;
+    color: white;
+}
+
+.brisanje {
+    color: red;
+}
+
+#opis {
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 14px;
+}
+
+.dugme-code {
+    font-size: xx-large;
+    color: blue;
+    cursor: pointer;
+}
